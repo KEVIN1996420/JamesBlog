@@ -1,9 +1,12 @@
+/* jshint esversion : 9 */
+
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import Vue2Editor from "vue2-editor";
 
+// imported for the blog post writer/editor 
 Vue.use(Vue2Editor);
 
 Vue.config.productionTip = false;

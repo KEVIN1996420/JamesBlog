@@ -1,3 +1,7 @@
+/* jshint esversion : 9 */
+
+// Basic template setup for vue router and history
+
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
